@@ -1,4 +1,3 @@
-============
 Path2Insight 
 ============
 
@@ -164,3 +163,5 @@ Authors
 
 - Armel Lefebvre
 - Jonathan de Bruin
+
+

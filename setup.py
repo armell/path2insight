@@ -9,7 +9,7 @@ here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
 with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = '\n' + f.read()
+    long_description = f.read()
 
 
 def get_version_number():
@@ -44,7 +44,7 @@ setup(
 
     version=get_version_number(),
 
-    description='A set of tool to retrieve information from filepaths.',
+    description='A set of tools to retrieve information from filepaths.',
     long_description=long_description,
 
     url='https://github.com/armell/path2insight',
