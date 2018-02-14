@@ -5,6 +5,15 @@ from itertools import chain
 from pathlib import PurePath as _PurePath
 from pathlib import _windows_flavour, _posix_flavour
 
+try:
+    # python 3
+    from pathlib import PurePath as _PurePath
+    from pathlib import _windows_flavour, _posix_flavour
+except ImportError:
+    # python 2
+    from pathlib2 import PurePath as _PurePath
+    from pathlib2 import _windows_flavour, _posix_flavour
+
 from path2insight.tokenizers import tokenizer, DEFAULT_TOKENIZE_PATTERN
 
 
