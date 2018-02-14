@@ -1,0 +1,3 @@
+
+[] distance metrics not available in documentation
+[] argument tokenizer in distance_on_token not working

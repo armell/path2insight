@@ -1,0 +1,1 @@
+"""Submodule for algorithms relevant for analyzing file paths."""
