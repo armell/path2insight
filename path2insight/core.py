@@ -2,9 +2,6 @@ import re
 from functools import partial
 from itertools import chain
 
-from pathlib import PurePath as _PurePath
-from pathlib import _windows_flavour, _posix_flavour
-
 try:
     # python 3
     from pathlib import PurePath as _PurePath
