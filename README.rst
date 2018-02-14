@@ -2,6 +2,13 @@
 Path2Insight 
 ============
 
+|travis| |readthedocs|
+
+.. |travis| image:: https://travis-ci.org/armell/path2insight.svg?branch=master
+    :target: https://travis-ci.org/armell/path2insight
+.. |readthedocs| image:: https://readthedocs.org/projects/path2insight/badge/
+    :target: https://readthedocs.org/projects/path2insight/badge/
+
 Path2Insight (p2i) is a modular and scalable python module which aims at
 offering a unified and comprehensive set of processing tools for analyzing
 file paths. P2i supports static file systems analysis without requiring access
