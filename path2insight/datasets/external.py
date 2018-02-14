@@ -1,7 +1,5 @@
 import os
 
-import pandas
-
 from path2insight.parse import parse_from_pandas
 
 
@@ -39,14 +37,19 @@ def load_pride(nrows=None, skiprows=None):
 
     """
 
+    try:
+        import pandas as pd
+    except ImportError:
+        raise ImportError('pandas is required for this function')
+
     data_path = os.path.join(
         os.path.dirname(__file__),
         'data',
         'pride.csv.gzip'
     )
 
-    data = pandas.read_csv(data_path, nrows=nrows, skiprows=skiprows,
-                           encoding='utf-8', compression='gzip')
+    data = pd.read_csv(data_path, nrows=nrows, skiprows=skiprows,
+                       encoding='utf-8', compression='gzip')
 
     return parse_from_pandas(data, os_name='posix')
 
@@ -83,13 +86,18 @@ def load_ensembl(nrows=None, skiprows=None):
 
     """
 
+    try:
+        import pandas as pd
+    except ImportError:
+        raise ImportError('pandas is required for this function')
+
     data_path = os.path.join(
         os.path.dirname(__file__),
         'data',
         'ensembl90.csv.gzip'
     )
 
-    data = pandas.read_csv(data_path, nrows=nrows, skiprows=skiprows,
-                           encoding='ascii', compression='gzip')
+    data = pd.read_csv(data_path, nrows=nrows, skiprows=skiprows,
+                       encoding='ascii', compression='gzip')
 
     return parse_from_pandas(data, os_name='posix')
