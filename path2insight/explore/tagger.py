@@ -199,8 +199,6 @@ class ExtensionTagger(object):
         Returns:
         [(".doc*", "DOC"), (".txt", "DOC")]
         """
-        # performance
-        # 3.18 µs ± 49.4 ns per loop
         _tags = self.tags
 
         tags = []
