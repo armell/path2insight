@@ -1,8 +1,5 @@
 import sys
 
-if sys.version_info.major != 3:
-    raise Exception("Only Python 3 is supported at the moment.")
-
 from path2insight.core import WindowsFilePath, PosixFilePath
 from path2insight.parse import *
 from path2insight.collect import *
