@@ -74,6 +74,7 @@ setup(
         'test': ['pytest', 'parameterized'],
     },
     package_data={
-        'sample': ['datasets/data/ensembl90.csv.gzip'],
+        '': ['datasets/data/ensembl90.csv.gzip',
+             'datasets/data/pride.csv.gzip'],
     }
 )
