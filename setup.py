@@ -49,8 +49,8 @@ setup(
 
     url='https://github.com/armell/path2insight',
 
-    author='Armel Lefebvre and Jonathan de Bruin',
-    author_email='A.E.J.Lefebvre@uu.nl and j.debruin1@uu.nl',
+    author='Armel Lefebvre, Jonathan de Bruin',
+    author_email='A.E.J.Lefebvre@uu.nl, j.debruin1@uu.nl',
 
     license='MIT',
 
