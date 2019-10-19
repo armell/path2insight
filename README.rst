@@ -156,7 +156,7 @@ installing the packages in the `requirements-full.txt` file.
 Cite
 ====
 
-Follows. 
+[1] A. Lefebvre and M. Spruit, “Desiging laboratory forensics,” in 18th IFIP WG 6.11 Conference on e-Business, e-Services, and e-Society, I3E 2019, 2019.
 
 Authors
 =======
