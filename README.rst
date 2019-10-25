@@ -7,6 +7,8 @@ Path2Insight
     :target: https://travis-ci.org/armell/path2insight
 .. |readthedocs| image:: https://readthedocs.org/projects/path2insight/badge/
     :target: https://readthedocs.org/projects/path2insight/badge/
+.. |zenodo| image:: https://zenodo.org/badge/121507016.svg
+   :target: https://zenodo.org/badge/latestdoi/121507016
 
 Path2Insight (p2i) is a modular and scalable python module which aims at
 offering a unified and comprehensive set of processing tools for analyzing
