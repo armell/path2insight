@@ -1,7 +1,7 @@
 Path2Insight 
 ============
 
-|travis| |readthedocs|
+|travis| |readthedocs| |zenodo|
 
 .. |travis| image:: https://travis-ci.org/armell/path2insight.svg?branch=master
     :target: https://travis-ci.org/armell/path2insight
